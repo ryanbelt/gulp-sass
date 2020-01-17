@@ -1,0 +1,38 @@
+//Partner Colors
+$red: #850928;
+$yellow: #e3d353;
+$pink: #ca1e50;
+$purple: #5c315e;
+$blue: #083963;
+$grey: #413f46;
+$orange: #ca4a24;
+
+//Colors
+$text-black: #333;
+$text-grey-lt: #808080;
+$text-grey-dk: #666666;
+$text-white: #ffffff;
+
+$color-primary: $red;
+$color-link: $red;
+$color-icon: $red;
+
+$color-activity: $blue;
+$color-assessment: $grey;
+$color-assignment: $pink;
+$color-discussion: $purple;
+$color-lesson: $yellow;
+
+$bg-grey-lt: #f6f6f6;
+$bg-grey-dk: #5a5a5a;
+
+$overlay-dk: rgba(0, 0, 0, 0.5);
+$overlay-xdk: rgba(0, 0, 0, 0.75);
+$overlay-lt: rgba(255, 255, 255, 0.75);
+
+$sidebar: #5a5a5a;
+
+@function hovercolor($color) {
+  $darkcolor: scale-color($color, $lightness: -35%);
+  @return $darkcolor;
+}

@@ -1,0 +1,7 @@
+/* target content based on wrapper levels for flexible specificity cascade
+place your code or partials inside these top level containers
+you can redeclare wrapper containers inside each other if you need the specificity
+so you can put #main inside #application target something inside #main
+do not overuse id selectors inside of the containers */
+@import "variables/all";
+@import "mixins/all";
